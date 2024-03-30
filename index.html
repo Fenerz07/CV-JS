@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="./img/pinguin_white.png" type="image/icon type">
+    <title>FP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="dropdown-content" id="dropdown-content">
+            <a href="#home" class="headerlink" onclick="ScrollToTop()">HOME</a>
+            <a href="#about" class="headerlink">ABOUT</a>
+            <a href="#skills" class="headerlink">SKILLS</a>
+            <!-- <a href="#works" class="headerlink">WORKS</a> -->
+            <a href="#contact" class="headerlink">CONTACT</a>
+        </div>
+        <button onclick="ScrollToTop()"><img src="./img/pinguin_white.png" alt="pinguin_white"></button>
+    </header>
+    <main>
+        <div id="home" class="home">
+            <h1>FENERZ'S PORTOFLIO</h1>
+            <video autoplay muted loop id="myVideo">
+                <source src="./img/edit.mp4" type="video/mp4">
+        </div>
+        <div id="about" class="about">
+            <div class="abouttext">
+                <h1>Hi! My name's Hugo.</h1>
+                <p>I'm a french Programmer based in Lille. I love Playing video games,automobile,fashion and also music! I love IT from my youngest age, and now i'm doing what i was ever dreaming for.</p>
+            </div>
+            <div class="aboutimg">
+                <img src="./img/car_white.png" alt="car_white">
+                <img src="./img/game_white.png" alt="game_white">
+                <img src="./img/cloth_white.png" alt="cloth_white">
+                <img src="./img/music_white.png" alt="music">
+            </div>
+        </div>
+        <div id="skills" class="skills">
+            <h1>MY SKILLS:</h1>
+            <div class="skillsfirstline">
+                <img src="./img/html.png" alt="html">
+                <img src="./img/windows.png" alt="windows">
+                <img src="./img/cisco.png" alt="cisco">
+                <img src="./img/node.png" alt="node">
+                <img src="./img/css.jpg" alt="css">
+                <img src="./img/sql.png" alt="sql">
+            </div>
+            <div>
+                
+            </div>
+            <div class="skillssecondline">
+                <img src="./img/python.png" alt="python">
+                <img src="./img/java.jpg" alt="java">
+                <img src="./img/c.png" alt="c">
+                <img src="./img/react.png" alt="react">
+                <img src="./img/js.png" alt="js">
+                <img src="./img/linux.png" alt="linux">
+            </div>
+        </div>
+        <!-- <div id="works" class="works">
+            <h1>MY WORKS:</h1>
+            <div class="worksimg">
+                <img class="first" src="./img/gmod.png" alt="gmod">
+                <img src="./img/minecraft.png" alt="minecraft">
+                <img src="./img/auchan.png" alt="auchan">
+                <img src="./img/RDC.png" alt="RDC">
+                <img src="./img/github.png" alt="github">
+                <img src="./img/github.png" alt="github">
+            </div>
+        </div> -->
+        <div id="contact" class="contact">
+            <h1>CONTACT ME:</h1>
+            <form action="mailto:hugom2005@free.fr" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message" id="text">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Fenerz07" target=”_blank”> <img src="./img/github.png" alt="github"></a>
+        <a href="https://www.linkedin.com/in/hugo-matyla-7a6a49293/" target=”_blank”> <img src="./img/linkedin.png" alt="linkedin"></a>
+        <h4>MAIL : hugom2005@free.fr</h4>
+        <p>&copy; 2024 My CV. All rights reserved.</p>
+    </footer>
+</body>
+</html>
